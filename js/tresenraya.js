@@ -19,14 +19,14 @@ window.onload = function () {
                     contador++
                     juego[celda.id] = "X"
                     document.getElementById("jugadorO").setAttribute("class", "seleccionado")
-                    document.getElementById("jugadorX").setAttribute("class", "no seleccionado")
+                    document.getElementById("jugadorX").setAttribute("class", "noseleccionado")
                 } else {
                     celda.innerHTML = "O"
                     turno--
                     contador++
                     juego[celda.id] = "O"
                     document.getElementById("jugadorX").setAttribute("class", "seleccionado")
-                    document.getElementById("jugadorO").setAttribute("class", "no seleccionado")
+                    document.getElementById("jugadorO").setAttribute("class", "noseleccionado")
 
                 }
                 Comprobar(juego);
